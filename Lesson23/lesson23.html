@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 400px;
+            height: 40px;
+            border: 1px solid red;
+            color: white;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            animation-name: hi;
+            animation-duration: 0.3s;
+            animation-iteration-count: infinite;
+            background: black;
+        }
+        @keyframes hi{
+            0%{
+                transform: rotate(0deg);
+
+            }
+            25%{
+              transform: rotate(20deg);
+            }  
+            50%{
+                transform: rotate(0deg);
+  
+            }
+            75%{
+                transform: rotate(-20deg);
+ 
+            }
+            100%{
+                transform: rotate(0deg);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        text
+    </div>
+</body>
+</html>
